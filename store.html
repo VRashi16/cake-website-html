@@ -1,0 +1,423 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<title>Cake_Webpage</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- Bootstrap -->
+<link href="css/bootstrap.min.css" rel="stylesheet">
+<link href='http://fonts.googleapis.com/css?family=Cookie' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Quicksand:300,400,700' rel='stylesheet' type='text/css'>
+<link href="css/style.css" rel="stylesheet">
+<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+<header class="main__header">
+  <div class="container">
+    <nav class="navbar navbar-default" role="navigation"> 
+      <!-- Brand and toggle get grouped for better mobile display --> 
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="navbar-header">
+        <h1 class="navbar-brand"><a href="index.html">HCH</a></h1>
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+      </div>
+      <div class="navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav nav-justified">
+          <li><a href="index.html">Home</a></li>
+          <li class="dropdown">
+            <div class="dropper"> <a href="#" class="dropdown-toggle" data-toggle="dropdown">Pages</a>
+              <ul class="dropdown-menu">
+                <li><a href="Portfolio.html">Gallery</a></li>
+                  <li><a href="cart/index.php">Web Store</a></li>
+                  <li><a href="blog.html">Blog & News</a></li>
+              </ul>
+            </div>
+          </li>
+          <li><a href="Portfolio.html">Gallery</a></li>
+          <li><a href="full_width.html">About</a></li>
+          <li><a href="contact.html">contact </a></li>
+          <li><a href="blog.html">blog</a></li>
+        </ul>
+      </div>
+      <!-- /.navbar-collapse --> 
+    </nav>
+  </div>
+</header>
+<section class="main__middle__container">
+  <div class="container recent-posts">
+    <h2 class="page_title text-center"><span>Web Store</span><br />
+      <span class="sep"></span><br />
+      <small>Setup a web store &amp; accept orders in just 5 minutes!</small></h2>
+    <div class="row no-margin no_padding"> 
+      
+      <!-- ////////////////////////////////////////////////////////////// START SHOPPING CART ///////////////////////////////////////////////////////////////// --> 
+      
+      <script type="text/javascript" src="webstore/js/jquery-1.7.2.min.js"></script> <!-- (do not call twice) --> 
+      
+      <!-- DC Instant.Webstore JS --> 
+      <script src="webstore/js/jquery.instant.webstore.js"></script> 
+      
+      <!-- DC Instant.Webstore CSS -->
+      <link rel="stylesheet" href="webstore/css/style.css">
+      <div id="webstore">
+        <ul id="webstore-navigation">
+          <li><a class="current store-tab" href="#catalogue">Catalogue</a></li>
+          <li><a class="store-tab" href="#cart">Cart (<span class="cart-quantity">0</span> items)</a></li>
+          <li><a class="store-tab" href="#checkout">Checkout</a></li>
+        </ul>
+        <div id="webstore-container">
+          <div id="webstore-container-inner">
+            <div class="webstore-clear" id="catalogue">
+              <ul>
+                <!-- item 1 -->
+                
+                <li class="product first-column" data-id="item1">
+                  <div class="webstore-clear">
+                    <div class="webstore-clear"> <img class="left thumb" src="webstore/css/images/1.png"> <!-- Add item images to /webstore/ -->
+                      <div class="right">
+                        <h3 class="title">Item 1</h3>
+                        <p class="description"> BUTTERSCOTCH CAKE............................................................................... </p>
+                      </div>
+                    </div>
+                    <div class="right"> <span class="left price">$9.95</span>
+                      <button class="left purchase" type="button"><span>Add to Cart</span></button>
+                    </div>
+                  </div>
+                </li>
+                <!-- item 1 ends --> 
+                
+                <!-- item 2 -->
+                <li class="product last-column" data-id="item2">
+                  <div class="webstore-clear">
+                    <div class="webstore-clear"> <img class="left thumb" src="webstore/css/images/item2.png">
+                      <div class="right">
+                        <h3 class="title">Item 2</h3>
+                        <p class="description"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum mattis velit
+                          et elit tempor et aliquet diam suscipit. </p>
+                      </div>
+                    </div>
+                    <div class="right"> <span class="left price">$14.95</span>
+                      <button class="left purchase" type="button"><span>Add to Cart</span></button>
+                    </div>
+                  </div>
+                </li>
+                <!-- item 2 ends--> 
+                
+                <!-- item 3 -->
+                <li class="product first-column" data-id="item3">
+                  <div class="webstore-clear">
+                    <div class="webstore-clear"> <img class="left thumb" src="webstore/css/images/item3.png">
+                      <div class="right">
+                        <h3 class="title">Item 3</h3>
+                        <p class="description"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum mattis velit
+                          et elit tempor et aliquet diam suscipit. </p>
+                      </div>
+                    </div>
+                    <div class="right"> <span class="left price">$6.00</span>
+                      <button class="left purchase" type="button"><span>Add to Cart</span></button>
+                    </div>
+                  </div>
+                </li>
+                <!-- item 3 ends--> 
+                
+                <!-- item 4 -->
+                <li class="product last-column" data-id="item4">
+                  <div class="webstore-clear">
+                    <div class="webstore-clear"> <img class="left thumb" src="webstore/css/images/item4.png">
+                      <div class="right">
+                        <h3 class="title">Item 4</h3>
+                        <p class="description"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum mattis velit
+                          et elit tempor et aliquet diam suscipit. </p>
+                      </div>
+                    </div>
+                    <div class="right"> <span class="left price">$18.00</span>
+                      <button class="left purchase" type="button"><span>Add to Cart</span></button>
+                    </div>
+                  </div>
+                </li>
+                <!-- item 4 ends-->
+                
+              </ul>
+            </div>
+            <div class="webstore-clear" id="cart">
+              <div class="cart-is-empty">Your shopping cart is empty.</div>
+              <div class="cart-is-full">
+                <div class="webstore-clear" id="cart-heading"> <span class="description">Item</span> <span class="quantity">Quantity</span> <span class="price"><span>Price</span><span>Total</span></span> </div>
+                <div class="webstore-clear" id="cart-list"></div>
+                <hr>
+                <div class="webstore-clear">
+                  <button class="left empty" type="button"><span>Empty cart</span></button>
+                  <div class="right cart-totals">
+                    <label>Subtotal</label>
+                    <span class="cart-subtotal">$0.00</span><br>
+                    <label>Shipping</label>
+                    <span class="cart-shipping">$0.00</span><br>
+                    <label>Tax</label>
+                    <span class="cart-tax">$0.00</span><br>
+                    <label>Discount</label>
+                    <span class="cart-discount">$0.00</span><br>
+                    <br>
+                    <label>Grand Total</label>
+                    <span class="cart-total">$0.00</span><br>
+                    <br>
+                    <!--<button class="right" type="button" id="checkout-continue-button" ><span>Checkout</span></button>-->
+                    <form action="new/register.php">
+                      <input type="submit" value="Checkout">
+                    </form>
+                    
+                  </div>
+                  
+                </div>
+               </div>
+            </div>
+            <div class="webstore-clear" id="checkout">
+              <div class="cart-is-empty">Your shopping cart is empty.</div>
+              <div class="cart-is-full">
+                <form>
+                  <div> 
+                    <!-- PAYMENT PROCESSORS --> 
+                    <!-- comment out 3rd party merchant processor to remove from checkout form -->
+                    <label> <img src="webstore/css/images/credit-mini.png" title="Credit Card" hspace="5" vspace="0" border="0" />
+                      <input type="radio" name="instant_webstore[method]" value="authorizenet" checked>
+                      Cash on delivery </label>
+                  </div>
+                  <table cellspacing="0">
+                    <tr>
+                      <td><label>Email address *</label></td>
+                      <td><input data-validate="required:method=authorizenet" name="instant_webstore[email]"></td>
+                    </tr>
+                  </table>
+                  <table cellspacing="0">
+                    <tr>
+                      <td colspan="2"><h3>Billing address</h3></td>
+                    </tr>
+                    <tr>
+                      <td><label>First and last name *</label></td>
+                      <td><table cellspacing="0">
+                          <tr>
+                            <td><input data-validate="required:method=authorizenet" name="instant_webstore[first_name]"></td>
+                            <td><input data-validate="required:method=authorizenet" name="instant_webstore[last_name]"></td>
+                          </tr>
+                        </table></td>
+                    </tr>
+                    <tr>
+                      <td><label>Address line 1 *</label></td>
+                      <td><input data-validate="required:method=authorizenet" name="instant_webstore[address1]"></td>
+                    </tr>
+                    <tr>
+                      <td><label>Address line 2</label></td>
+                      <td><input name="instant_webstore[address2]"></td>
+                    </tr>
+                    <tr>
+                      <td><label>City *</label></td>
+                      <td><input data-validate="required:method=authorizenet" name="instant_webstore[city]"></td>
+                    </tr>
+                    
+                    <tr>
+                      <td><label>Zip/postal code *</label></td>
+                      <td><input data-validate="required:method=authorizenet" name="instant_webstore[postal]" size="10"></td>
+                    </tr>
+                  </table>
+                  <table cellspacing="0" id="checkout-ship-to-address">
+                    <tr>
+                      <td><h3>Shipping address</h3></td>
+                      <td><table cellspacing="0">
+                          <tr>
+                            <td><label>
+                                <input type="radio" name="instant_webstore[ship_to_address]" value="0" checked>
+                                My shipping address is my billing address </label></td>
+                            <td><label>
+                                <input type="radio" name="instant_webstore[ship_to_address]" value="1">
+                                I have a different shipping address </label></td>
+                          </tr>
+                        </table></td>
+                    </tr>
+                  </table>
+                  <table cellspacing="0">
+                    <tr>
+                      <td><label>First and last name</label></td>
+                      <td><table cellspacing="0">
+                          <tr>
+                            <td><input data-validate="required:method=authorizenet;ship_to_address=1" name="instant_webstore[ship_to_first_name]"></td>
+                            <td><input data-validate="required:method=authorizenet;ship_to_address=1" name="instant_webstore[ship_to_last_name]"></td>
+                          </tr>
+                        </table></td>
+                    </tr>
+                    <tr>
+                      <td><label>Address line 1</label></td>
+                      <td><input data-validate="required:method=authorizenet;ship_to_address=1" name="instant_webstore[ship_to_address1]"></td>
+                    </tr>
+                    <tr>
+                      <td><label>Address line 2</label></td>
+                      <td><input name="instant_webstore[ship_to_address2]"></td>
+                    </tr>
+                    <tr>
+                      <td><label>City</label></td>
+                      <td><input data-validate="required:method=authorizenet;ship_to_address=1" name="instant_webstore[ship_to_city]"></td>
+                    </tr>
+                   
+                    <tr>
+                      <td><label>Zip/postal code</label></td>
+                      <td><input data-validate="required:method=authorizenet;ship_to_address=1" name="instant_webstore[ship_to_postal]" size="10"></td>
+                    </tr>
+                  </table>
+                  
+                  <hr>
+                  <div class="webstore-clear cart-totals">
+                    <div class="left">* Required fields</div>
+                    <div class="right">
+                      <label>Subtotal</label>
+                      <span class="cart-subtotal">$0.00</span><br>
+                      <label>Shipping</label>
+                      <span class="cart-shipping">$0.00</span><br>
+                      <label>Tax</label>
+                      <span class="cart-tax">$0.00</span><br>
+                      <label>Discount</label>
+                      <span class="cart-discount">$0.00</span><br>
+                      <br>
+                      <label>Grand Total</label>
+                      <span class="cart-total">$0.00</span><br>
+                      <br>
+                     <!-- <button class="right authorizenet" type="button" id="checkout-order"><span>Place Order</span></button>-->
+                     <form action="new/details.php">
+                      <input type="submit" value="Place order">
+                    </form>
+                   
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- DC Instant.Webstore End --> 
+      
+      <!-- DC Instant.Webstore Settings --> 
+      <script type="text/javascript">
+                     	   $x=jQuery.noConflict();
+$x('#cart-list').instant('webstore', {
+
+                         
+                        // PAYMENT SETTINGS
+                        // To configure advanced settings, edit dcodes/webstore/js/jquery.instant.webstore.js
+                         
+                            sandbox: false, // enable sandbox to test payment without incurring real charges. Set to false to accept real payments.
+                            authorizeNetSignature: 'http://yourdomain.com/dcodes/webstore/authorize.net.php', // return path to authorize.net.php. Make sure you edit this file located in /webstore/authorize.net.php to configure your Authorize.Net login/key
+                            paypaluser: 'paypal', // enter your paypal username, for example if your paypal address is paypal@mydomain.com, enter "paypal" here
+                            paypaldomain: 'example.com', // enter your paypal domain, for example if your paypal address is paypal@mydomain.com, enter "mydomain.com" here
+                            skrilluser: '', // enter your skrill (moneybookers) user name
+                            skrilldomain: '', // enter your skrill (moneybookers) domain name
+                            amazonmerchant: '', // enter your amazon payments username/id
+                            googlemerchant: '', // enter your google checkout username/id
+                            returnurl: 'http://www.yourdomain.com/thankyou-for-your-order.html', // enter your return URL here after payment success. Return URL should be a thank you/confirmation page.
+                            properties: [ 'thumb', 'title', 'description' ],
+                            cartitem: '<div class="left"><img src="{thumb}"></div>'
+                                + '<div class="right">'
+                                + '<span class="title">{title}</span>'
+                                + '<span class="description">{description}<span class="gradient"></span></span>'
+                                + '<input class="quantity" value="{quantity}">'
+                                + '<span class="price"><small><span>{pricesingle}</span></small><span>{pricetotal}</span></span>'
+                                + '</div>',
+                            discountCodes: { // define coupon codes here
+                                '10PERCENT': '10%', // coupon code is 10PERCENT, discount items by 10%
+                                '10DOLLARS': 10, // coupon code is 10DOLLARS, discount items by $10
+                                '2FOR10': function () { // coupon code is 2FOR10, let users select any two items for $10
+                                    return this.quantity === 2 ? (this.subtotal + this.shipping + this.tax) - 10 : 0;
+                                },
+                                'FREESHIPPINGOVER100': function () { // make shipping free if users spend over $100
+                                    return this.subtotal > 100 ? this.shipping : 0;
+                                }
+                            },
+                                     
+                            geolocation: true, // Set this to true to use instant.webstore's experimental geolocation, which utilizes services of geoplugin.com, a third-party provider.
+                         
+                         // tax shipping: enable/disable tax on shipping (edit in dcodes/webstore/js/jquery.instant.webstore.js)
+                                     
+                            shippingType: 'flat', // 'flat' = flat rate shipping fee, 'fixed' = fixed fee per item, 'range', or 'variable' = % based on cost of shopping cart total (e.g. 0.10 = 10%)
+                                     
+                            shippingRate: {
+                                'USPS': 9.95, // 9.95 = $9.95 (fixed) / 0.10 = 10% (variable)
+                                'UPS Ground': 14.95,
+                                'FedEx Express': 21.95
+                            }
+                        });
+                        </script>
+      <div class="dc_clear"></div>
+      <!-- line break/clear line --> 
+      
+      <br />
+      <br />
+      <span style="font:15px arial,sans-serif;line-height:150%"> <strong>Instant.Webstore: Features</strong><br />
+      + 100% Browser/Javascript based: <strong>No database required</strong>.<br />
+      + Fast &amp; Simple Setup: Add store items in <strong>seconds!</strong><br />
+      + Shipping Features: Supports Flat Rate/Fixed Rate/Variable Shipping Fees/Taxes<br />
+      + Cart Features: Supports Coupon/Discount Codes, Calculates State Taxes<br />
+      + Merchant Ready: Supports Authorize.Net, PayPal, Skrill (MoneyBookers), Google Checkout, Amazon Payments.<br />
+      + Browser Cookies Support - Stores buyer cart items <strong>automatically!</strong><br />
+      + Just edit this page and have a web store ready in <strong>5 minutes!</strong><br />
+      </span> <br />
+      
+      <!-- ////////////////////////////////////////////////////////////// END SHOPPING CART ///////////////////////////////////////////////////////////////// --> 
+      
+    </div>
+  </div>
+</section>
+<footer>
+  <div class="container">
+    <div class="row" align="center">
+      <div class="col-md-3">
+        <h3><small>About</small></h3>
+        <p>Take the broken pieces of your life, bake a master cake out of it. Don't stand still like a lake; keep flowing like a stream!
+
+ <br />
+          <br />
+          If you have any questions about our products or services, please do not hesitate to contact. Available seven days a week to assist you.</p>
+      </div>
+      
+      
+
+      <div class="col-md-3">
+        <h3><small>Tweets</small></h3>
+        <p><br />
+         You can mail me at hiralscakehouse@gmail.com</p>
+        
+      </div>
+      <div class="col-md-3">
+
+
+        <h3><small>Hiral's Message</small></h3>
+        <p>I am always at your service.</p>
+        <p>Email id : hiralscakehouse@gmail.com </p>
+        <p>Contact info : (91) 9421366729<br />
+          (91) 703869938 </p>
+        <br />
+        
+      </div>
+
+      <div class="col-md-3">
+        <h3><small>Social</small></h3>
+        <p>Akasharpusp appartment, Ramanuj nagar<br />
+          Kevdivan tapovan<br />
+          Nasik<br />
+          <br />
+          Phone: (91) 9421366729<br />
+          (91) 703869938<br />
+          <br />
+        </p>
+      
+    </div>
+    <br><br><br><br><br><br><br><br><br><br>
+    <hr>
+    <p class="text-center">&copy; Copyright Hiral's Cake House. All Rights Reserved.</p>
+    <p> Designed by Harpal,Anjali,Rashmi,Rashi.</p>
+  </div>
+</footer>
+
+<!-- Include all compiled plugins (below), or include individual files as needed --> 
+<script src="js/bootstrap.min.js"></script>
+</body>
+</html>
